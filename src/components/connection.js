@@ -1,6 +1,6 @@
 import React from 'react'
 
-let endpoint = process.env.REACT_APP_GO_SERVER;
+let endpoint = process.env.REACT_APP_BACKEND_SERVER;
 // let endpoint = "http://localhost";
 
 class Connection extends React.Component {
