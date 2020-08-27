@@ -1,6 +1,7 @@
 import React from 'react'
 
-let endpoint = "http://localhost";
+let endpoint = process.env.REACT_APP_GO_SERVER;
+// let endpoint = "http://localhost";
 
 class Connection extends React.Component {
     constructor() {
