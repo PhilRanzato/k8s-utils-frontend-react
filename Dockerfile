@@ -2,9 +2,9 @@ FROM node:latest
 
 RUN mkdir -p /home/react
 
-COPY ./webapp /home/react
+COPY . /home/react
 
-WORKDIR /home/react/webapp
+WORKDIR /home/react
 
 RUN npm install react-router-dom && \
     npm install react-pro-sidebar 
